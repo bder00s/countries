@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#base, h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+
+
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+  color: #480355;
+
+}
+
+#nameAndFlag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+#cardBackground {
+  background-color: #63b4d1;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 6px 10px 0 0 #098EBF;
+  margin: 20px;
+  width: 400px;
+
+}
+
+#query-field {
+  font-family: 'Fredoka One', cursive;
+background-color: #D5EEF7;
+  border: none;
+}
+button {
+  font-family: 'Fredoka One', cursive;
+  background-color: #63b4d1;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px;
+
+}
+#search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+  background-color: #D5EEF7;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+
+#country-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  text-align: center;
+  background-color: #94D1E7;
+ padding: 30px;
+  border-radius: 30px;
+
+}
+
+
