@@ -1,18 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
 
 * {
   margin: 0;
   padding: 0;
 }
-
-#error-message {
-  color: red;
-  border: solid 3px red;
-  text-align: center;
-  padding: 5px;
-}
-
 
 #base, h1 {
   display: flex;
@@ -56,6 +47,7 @@ body {
 background-color: #D5EEF7;
   border: none;
 }
+
 button {
   font-family: 'Fredoka One', cursive;
   background-color: #63b4d1;
@@ -65,6 +57,7 @@ button {
   padding: 5px;
 
 }
+
 #search-form {
   display: flex;
   flex-direction: row;
@@ -88,12 +81,17 @@ button {
   border-radius: 30px;
 }
 
-  li {
+li {
     list-style-type: none ;
     padding: 10px;
     text-align: center;
   }
 
+#error-message {
+  color: red;
+}
 
 
 
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
