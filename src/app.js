@@ -42,18 +42,13 @@ async function fetchCountryDetails(name) {
         `
     } catch (error) {
         console.error(error)
-    }
-    function unknownCountry(e) {
+
         const errorMessage = document.getElementById("error-message");
-    }
-        e.preventDefault();
-    fetchCountryDetails(queryfield.value);
+        errorMessage.innerHTML = `<p>Dit is geen bestaand land :(</p>`
 
-    queryfield.value = ' ';
+        }
 
-    if (fetchCountryDetails(queryfield.value) === undefined) {
-        console.log("Dit land bestaat niet")
-}
+
 }
 
 fetchCountryDetails(name);
